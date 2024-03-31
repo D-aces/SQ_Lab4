@@ -5,7 +5,8 @@ pipeline {
     AZURE_RESOURCE_GROUP = "sqLab4ResourceGroup"
     AZURE_REGION = "canadaeast"
   }
-  
+
+  agent any
   stages {
     stage('Build') {
       steps {
